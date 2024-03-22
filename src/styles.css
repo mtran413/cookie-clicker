@@ -1,0 +1,90 @@
+/* styles.css */
+
+.App {
+    text-align: center;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  }
+  
+  body {
+    margin: 50;
+    background-image: linear-gradient(
+      90deg,
+      rgb(200, 223, 255),
+      rgb(193, 255, 190)
+    );
+  }
+  
+  h1 {
+    color: rgb(0, 0, 0);
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    padding: 20px;
+    background-image: linear-gradient(
+      90deg,
+      #ff3c3c 0%,
+      #ff3c3c 20%,
+      #ffffff 20%,
+      #ffffff 40%,
+      #ff3c3c 40%,
+      #ff3c3c 60%,
+      #ffffff 60%,
+      #ffffff 80%,
+      #ff3c3c 80%,
+      #ff3c3c 100%
+    );
+  }
+  
+  #cookiebutton {
+    border-radius: 150px;
+    font-size: 100%;
+    background-color: #ff9090;
+    border: none;
+  }
+  
+  img.cookieimg {
+    width: 300px;
+    height: 300px;
+  }
+  
+  #buybutton {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    padding: 6px;
+    margin: 10px;
+    font-size: 17px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(194, 190, 232);
+    width: 170px;
+    height: 170px;
+    border-radius: 10px;
+    border-width: 4px;
+    border-color: rgb(162, 156, 212);
+  }
+  
+  img.buyimage {
+    width: 90px;
+    height: 90px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  
+  #stats {
+    border: 1px solid black;
+    margin: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    background-color: rgb(251, 188, 160);
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  }
+  
+  #store {
+    border: 1px solid black;
+    margin: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    background-color: rgb(255, 235, 157);
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    height: 500px;
+  }

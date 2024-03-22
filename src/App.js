@@ -1,7 +1,7 @@
 import { useState } from "react"; /* App.js */
-import Button from "../Button";
+import Button from "./Button";
 import "./styles.css";
-import BuyButton from "../BuyButton";
+import BuyButton from "./BuyButton";
 
 export default function App() {
   const [count, setCount] = useState(0);
